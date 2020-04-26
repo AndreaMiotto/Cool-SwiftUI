@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  HeaderView.swift
 //  Cool-SwiftUI
 //
 //  Created by Andrea Miotto on 26/4/20.
@@ -8,14 +8,17 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HeaderView: View {
+    let title: String
+
     var body: some View {
-        Text("Hello, World!")
+        Text(title)
+            .font(.headline)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HeaderView(title: "Header")
     }
 }
