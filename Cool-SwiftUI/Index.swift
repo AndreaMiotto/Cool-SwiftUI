@@ -12,8 +12,20 @@ struct Index: View {
     var body: some View {
         NavigationView {
             List {
+                
                 Section(header: HeaderView(title: "Basic Animations")) {
-                    NavigationLink(destination: AddProfileView(), label: { Text("Add Profile")
+                    NavigationLink(
+                        destination: AddProfileView(),
+                        label: {
+                            Text("Add Profile")
+                    })
+                }
+
+                Section(header: HeaderView(title: "Advanced Animations")) {
+                    NavigationLink(
+                        destination: PolygonSidesAnimationView(),
+                        label: {
+                            Text("Polygon Sides")
                     })
                 }
             }
