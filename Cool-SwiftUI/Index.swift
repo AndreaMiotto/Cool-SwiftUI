@@ -27,6 +27,12 @@ struct Index: View {
                         label: {
                             Text("Polygon Sides")
                     })
+
+                    NavigationLink(
+                        destination: ClockAnalogicView(),
+                        label: {
+                            Text("Analogic Clock")
+                    })
                 }
             }
             .listStyle(GroupedListStyle())

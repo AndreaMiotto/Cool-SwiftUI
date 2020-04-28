@@ -10,6 +10,7 @@
 		012F9C6124553EF000FA48E5 /* AddProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F9C6024553EF000FA48E5 /* AddProfileView.swift */; };
 		012F9C672455513200FA48E5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F9C662455513200FA48E5 /* HeaderView.swift */; };
 		012F9C692456C72300FA48E5 /* PolygonSidesAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F9C682456C72300FA48E5 /* PolygonSidesAnimationView.swift */; };
+		012F9C6C2456D9F200FA48E5 /* ClockAnalogicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F9C6B2456D9F200FA48E5 /* ClockAnalogicView.swift */; };
 		018C900824553DC90040115E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018C900724553DC90040115E /* AppDelegate.swift */; };
 		018C900A24553DC90040115E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018C900924553DC90040115E /* SceneDelegate.swift */; };
 		018C900C24553DC90040115E /* Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018C900B24553DC90040115E /* Index.swift */; };
@@ -22,6 +23,7 @@
 		012F9C6024553EF000FA48E5 /* AddProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProfileView.swift; sourceTree = "<group>"; };
 		012F9C662455513200FA48E5 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		012F9C682456C72300FA48E5 /* PolygonSidesAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonSidesAnimationView.swift; sourceTree = "<group>"; };
+		012F9C6B2456D9F200FA48E5 /* ClockAnalogicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockAnalogicView.swift; sourceTree = "<group>"; };
 		018C900424553DC90040115E /* Cool-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cool-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		018C900724553DC90040115E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		018C900924553DC90040115E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				018C900724553DC90040115E /* AppDelegate.swift */,
 				018C900924553DC90040115E /* SceneDelegate.swift */,
 				018C900B24553DC90040115E /* Index.swift */,
+				012F9C6B2456D9F200FA48E5 /* ClockAnalogicView.swift */,
 				012F9C62245550FD00FA48E5 /* Basics */,
 				018C900D24553DCA0040115E /* Assets.xcassets */,
 				018C901224553DCA0040115E /* LaunchScreen.storyboard */,
@@ -175,6 +178,7 @@
 				012F9C6124553EF000FA48E5 /* AddProfileView.swift in Sources */,
 				018C900824553DC90040115E /* AppDelegate.swift in Sources */,
 				012F9C692456C72300FA48E5 /* PolygonSidesAnimationView.swift in Sources */,
+				012F9C6C2456D9F200FA48E5 /* ClockAnalogicView.swift in Sources */,
 				018C900A24553DC90040115E /* SceneDelegate.swift in Sources */,
 				018C900C24553DC90040115E /* Index.swift in Sources */,
 			);
